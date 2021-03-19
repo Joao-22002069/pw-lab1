@@ -1,0 +1,143 @@
+*{
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 15px;
+}
+
+body{
+    background-color: beige;
+}
+
+h1{
+    color: cadetblue;
+}
+
+h3{
+    color: darkcyan;
+    font-family: 'Source Code Pro', monospace;
+}
+
+h4{
+    color: crimson;
+}
+
+a[target = blank]{
+    background-color: darkgray;
+}
+
+
+#index:hover{
+    color: darkkhaki;
+}
+
+#local:hover{
+    color: darkkhaki;
+}
+
+#multimedia:hover{
+    color: darkkhaki;
+}
+
+#info:hover{
+    color: darkkhaki;
+}
+
+#infopagina{
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 19px;
+    ;
+}
+
+.glasgow{
+    font-family: 'Trebuchet MS', cursive;
+    font-size: 21px;
+    color:yellow;
+}
+
+.glasgow::first-letter{
+    font-size: xx-large;
+}
+
+#indexLinkIntroduction:hover{
+    color: brown;
+}
+
+#localLinkIntroduction:hover{
+    color: red;
+}
+
+#multimediaLinkIntroduction:hover{
+    color: green;
+}
+
+#infoLinkIntroduction:hover{
+    color: greenyellow;
+}
+
+#local{
+    font-family:Georgia, cursive;
+    font-size: 14px;
+    color:teal;
+}
+
+#local::first-letter{
+    font-size: xx-large;
+}
+
+.glasgow::selection, #local::selection{
+    color:tomato;
+    background-color:royalblue;
+}
+
+#indexLink:hover, #localLink:link, #multimediaLink:active, #infoLink:hover, #quizzLink:hover, #comentariosLink:hover, #homeLink:visited{
+    color:navy;
+}
+
+tr:nth-child(even){
+    background-color:red;
+}
+
+tr:nth-child(odd){
+    background-color:white;
+}
+
+div.poematitulo::selection{
+    color: blueviolet;
+    background-color: yellowgreen;
+}
+
+
+div.poem::selection{
+    color:orange;
+    background-color:darkgoldenrod;    
+}
+
+#mainImage{
+    border-radius: 8px;
+}
+
+#mainImageCaption{
+    font-family: 'Source Code Pro', monospace;
+    color:royalblue;
+    font-size: 15px;
+}
+
+img.animatedGif{
+    width: 90px;
+    height: auto;
+}
+
+tr td{
+    font-size: 16px;
+}
+
+tr > td{
+    font-size: 18px;
+}
+
+img.stickyImage{
+    width: 130px;
+    height: auto;
+    text-align: center;
+    position: sticky;
+    position: -webkit-sticky;
+}
