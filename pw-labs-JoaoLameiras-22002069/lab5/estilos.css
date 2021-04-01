@@ -1,0 +1,199 @@
+*{
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 15px;
+    box-sizing:  border-box;
+}
+
+body{
+    background-color: beige;
+}
+
+h1{
+    color: cadetblue;
+}
+
+h3{
+    color: darkcyan;
+    font-family: 'Source Code Pro', monospace;
+}
+
+h4{
+    color: crimson;
+}
+
+a[target = blank]{
+    background-color: darkgray;
+}
+
+
+#index:hover{
+    color: darkkhaki;
+}
+
+#local:hover{
+    color: darkkhaki;
+}
+
+#multimedia:hover{
+    color: darkkhaki;
+}
+
+#info:hover{
+    color: darkkhaki;
+}
+
+#infopagina{
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 19px;
+    ;
+}
+
+.glasgow{
+    font-family: 'Trebuchet MS', cursive;
+    font-size: 21px;
+    color:yellow;
+}
+
+.glasgow::first-letter{
+    font-size: xx-large;
+}
+
+#indexLinkIntroduction:hover{
+    color: brown;
+}
+
+#localLinkIntroduction:hover{
+    color: red;
+}
+
+#multimediaLinkIntroduction:hover{
+    color: green;
+}
+
+#infoLinkIntroduction:hover{
+    color: greenyellow;
+}
+
+#local{
+    font-family:Georgia, cursive;
+    font-size: 14px;
+    color:teal;
+}
+
+#local::first-letter{
+    font-size: xx-large;
+}
+
+.glasgow::selection, #local::selection{
+    color:tomato;
+    background-color:royalblue;
+}
+
+#indexLink:hover, #localLink:link, #multimediaLink:active, #infoLink:hover, #quizzLink:hover, #comentariosLink:hover, #homeLink:visited{
+    color:navy;
+}
+
+tr:nth-child(even){
+    background-color:red;
+}
+
+tr:nth-child(odd){
+    background-color:white;
+}
+
+div.poematitulo::selection{
+    color: blueviolet;
+    background-color: yellowgreen;
+}
+
+
+div.poem::selection{
+    color:orange;
+    background-color:darkgoldenrod;    
+}
+
+#mainImage{
+    border-radius: 8px;
+}
+
+#mainImageCaption{
+    font-family: 'Source Code Pro', monospace;
+    color:royalblue;
+    font-size: 15px;
+}
+
+img.animatedGif{
+    width: 90px;
+    height: auto;
+}
+
+tr td{
+    font-size: 16px;
+}
+
+tr > td{
+    font-size: 18px;
+}
+
+main{
+    grid-area: main;
+}
+body{
+    display : grid;
+    width : 100vw;
+    height : 100vh;
+
+    grid-template-columns: 350px 1fr 350px;
+    grid-template-rows: 1fr 500px 1fr;
+    grid-template-areas: 
+    'header header header' 
+    'nav  main    aside'
+    'nav footer aside';
+}
+
+
+
+aside{
+    display: flex;
+    justify-items: start;
+    flex-direction: column;
+}
+
+nav{
+    display:flex;
+    justify-items: start;
+    flex-direction: row;
+    height: 10px;
+}
+
+footer{
+    text-align : center;
+    display : flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.decoy1:hover{
+   filter:grayscale(100%);
+}
+
+.decoy2:hover{
+    filter:invert(85%);
+}
+
+.decoy3:hover{
+    filter: opacity(50%);
+}
+
+.Imagemprincipal{
+    animation-name: inherit;
+    animation-duration: 3s;
+}
+
+@keyframes inherit{
+    0% {border-color:red; left:0px; top:0px; border-width:10px;}
+    25% {border-color:yellow; left:200px; top:0px; border-width:15px;}
+    50% {border-color:blue; left:200px; top:200px; border-width:20px;}
+    75% {border-color:green; left:0px; top:200px; border-width:25px;}
+    100% {border-color:black; left:0px; top:0px; border-width:2px;}
+}
